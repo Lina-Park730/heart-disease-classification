@@ -1,0 +1,21 @@
+{
+  "input_sha256": "b57db3e522b52ac49f5953b7ec50b2ff794377019a4621a0c3391bad04d1614a",
+  "raw_rows": 300,
+  "missing_values": {
+    "age": 0,
+    "sex": 0,
+    "chest.pain": 0,
+    "bp": 0,
+    "chol": 0,
+    "disease": 0
+  },
+  "duplicate_rows_removed": 1,
+  "clean_rows": 299,
+  "class_counts": {
+    "no": 161,
+    "yes": 138
+  },
+  "seed": 42,
+  "training_rows": 239,
+  "test_rows": 60
+}
