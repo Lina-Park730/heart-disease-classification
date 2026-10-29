@@ -196,7 +196,7 @@ def run(data_path, output, seed=SEED, jobs=1):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data", type=Path, default=ROOT / "data/heart_disease_midterm.csv")
+    parser.add_argument("--data", type=Path, default=ROOT / "data/heart_disease_data.csv")
     parser.add_argument("--output", type=Path, default=ROOT)
     parser.add_argument("--seed", type=int, default=SEED)
     parser.add_argument("--jobs", type=int, default=1)
