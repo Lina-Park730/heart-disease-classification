@@ -68,7 +68,7 @@ python -m unittest discover -s tests -v
 Alternative input and output locations:
 
 ```bash
-python src/train.py --data data/heart_disease_midterm.csv --output runs/experiment --seed 42 --jobs 1
+python src/train.py --data data/heart_disease_data.csv --output runs/experiment --seed 42 --jobs 1
 ```
 
 `results/` contains the data audit, split membership, fold-level metrics, comparison summary, selected parameters, test metrics, and test predictions. `source_row` is the zero-based row position in the original CSV, excluding its header. `figures/` contains the model comparison and test evaluation plots. Rerunning the same configuration regenerates these outputs.
