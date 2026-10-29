@@ -12,7 +12,7 @@ from src.train import FEATURES, ROOT, load_data, make_pipeline
 
 class PipelineTests(unittest.TestCase):
     def setUp(self):
-        self.raw = pd.read_csv(ROOT / "data/heart_disease_midterm.csv")
+        self.raw = pd.read_csv(ROOT / "data/heart_disease_data.csv")
 
     def load_frame(self, frame):
         with tempfile.TemporaryDirectory() as directory:
